@@ -31,3 +31,26 @@ h1{
 p{
     font-size: 20px;
 }
+img{
+    height: 200px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categia-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categia-videos img{
+    opacity: 1.0;
+    height: 200px;
+}
+.chamada-videos img:hover{
+    opacity: 1.0;
+    border: 3px solid green;
+}
+.categoria h2{
+    color: rgb(42, 122, 228);
+}
